@@ -25,7 +25,6 @@ func main() {
 			} else {
 				// OK
 				fmt.Println(response.Body)
-				time.Sleep(time.Second)
 			}
 		}
 	})
